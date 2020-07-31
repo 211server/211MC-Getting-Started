@@ -63,6 +63,43 @@ apt install openjdk-8-jre
 ln -s /usr/lib/jvm/java-8-openjdk-amd64/bin/java /usr/bin/java8
 ```
 
+致命警告: 启动器需要使用 [JavaFX](https://www.oracle.com/java/technologies/javase/javafx-overview.html) 库, 这在 openjdk 中是一个额外软件包, 请使用以下命令来安装
+
+```text
+apt install openjfx
+```
+
+此命令安装得到的 openjfx 可能对应 java 更高版本\(非 java8\), 请首先列出此软件包的全部版本
+
+```text
+apt list -a openjfx
+```
+
+命令执行结果例子:
+
+```text
+~$ apt list -a openjfx
+正在列表... 完成
+openjfx/bionic-updates,bionic-security 11.0.2+1-1~18.04.2 amd64
+openjfx/bionic 8u161-b12-1ubuntu2 amd64
+```
+
+注意其中的 `8u161-b12-1ubuntu2` 版本, 接下去安装此版本.
+
+```text
+apt install openjfx=8u161-b12-1ubuntu2
+```
+
+`apt upgrade` 可能会自动将 openjfx 软件包更新至更高版本\(对应更高版本的 java\), 使用以下命令来锁定版本阻止自动升级
+
+```text
+apt-mark hold openjfx
+```
+
+其他发行版: 未测试
+
+手动安装详见 [https://java.com/en/download/help/linux\_x64\_install.xml](https://java.com/en/download/help/linux_x64_install.xml)
+
 ## Mac
 
 ```text
