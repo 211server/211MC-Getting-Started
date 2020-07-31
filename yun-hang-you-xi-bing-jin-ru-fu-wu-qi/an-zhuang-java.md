@@ -62,6 +62,20 @@ apt install openjdk-8-jre
 ```text
 ln -s /usr/lib/jvm/java-8-openjdk-amd64/bin/java /usr/bin/java8
 ```
+严重警告: 以上操作方法可能会导致JavaFX缺失，并且**不能**通过以下方式解决
+```text
+sudo apt install openjfx
+```
+正确的安装方式-使用[sdkman](https://sdkman.io/install)安装
+
+使用以下三个命令，能够在Ubuntu 20.04上安装带有JavaFX的openjdk 8：
+
+`curl -s "https://get.sdkman.io" | bash`
+
+`source "$HOME/.sdkman/bin/sdkman-init.sh"`
+
+`sdk install java 8.0.262.fx-zulu`
+
 
 ## Mac
 
