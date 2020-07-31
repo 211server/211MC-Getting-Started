@@ -39,6 +39,8 @@ scoop install openjdk
 
 由于 Windows 操作系统不额外强调 32位 与 [64位](https://zh.wikipedia.org/wiki/64%E4%BD%8D%E5%85%83) 软件, 因此**网页可能识别错误并给予 32位 Java 的离线下载地址**. 请再次点击左侧的 "所有 Java 下载" 并自行选择 Java 版本和 cpu 架构.
 
+若中文页面的 “所有 Java 下载” 有错误, 请访问此英文页面 [https://www.java.com/en/download/manual.jsp](https://www.java.com/en/download/manual.jsp)
+
 若有更多问题详见 [https://www.java.com/en/download/help/windows\_manual\_download.xml](https://www.java.com/en/download/help/windows_manual_download.xml)
 
 轻微警告: 若下载缓慢请使用迅雷等工具下载.
@@ -106,5 +108,5 @@ apt-mark hold openjfx
 brew cask install java
 ```
 
-或详见 [https://www.java.com/zh\_CN/download/help/mac\_install.xml](https://www.java.com/zh_CN/download/help/mac_install.xml)
+或详见 [https://www.java.com/en/download/help/mac\_install.xml](https://www.java.com/en/download/help/mac_install.xml)
 
