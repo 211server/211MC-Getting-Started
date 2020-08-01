@@ -15,6 +15,7 @@
 
 ## 插件帮助
 
+* [命令相关常识](cha-jian-bang-zhu/ming-ling-xiang-guan-chang-shi.md)
 * [Nucleus](cha-jian-bang-zhu/nucleus.md)
 * [Prism](cha-jian-bang-zhu/prism.md)
 

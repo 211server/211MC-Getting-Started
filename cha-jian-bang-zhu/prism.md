@@ -1,6 +1,6 @@
 # Prism
 
-[Prism](https://github.com/prism/Prism) 插件会自动记录方块和物品变动.
+[Prism](https://github.com/prism/Prism) 会自动记录方块和物品变动.
 
 ```text
 /pr near

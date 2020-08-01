@@ -1,12 +1,6 @@
 # Nucleus
 
-[Nucleus](https://github.com/NucleusPowered/Nucleus) 是一种基础插件, 提供一系列常用命令.
-
-游戏内使用聊天栏来输入命令, 命令以 "/" 开头, 使用 tab 键获得自动补全. 若想查看全部帮助请输入 "/help". 部分命令输出的结果\(在聊天栏中\) 可以用鼠标点击, 请自行尝试.
-
-部分命令有冷却时间, 请勿疯狂使用以免必要时没得用.
-
-之后的帮助文档不会再重复命令相关的基本常识.
+[Nucleus](https://github.com/NucleusPowered/Nucleus) 是基础插件, 提供一系列常用命令.
 
 ## Home
 
