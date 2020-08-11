@@ -12,6 +12,7 @@
 
 * [Mod 列表](mod-bang-zhu/mod-lie-biao.md)
 * [工业2](mod-bang-zhu/gong-ye-2.md)
+* [已知 BUG](mod-bang-zhu/yi-zhi-bug.md)
 
 ## 插件帮助
 

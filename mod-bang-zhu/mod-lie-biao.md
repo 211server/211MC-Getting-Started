@@ -12,7 +12,7 @@
 
 工业 IndustrialCraft2/IndustrialWires
 
-机械主义 Mekanism
+机械主义 Mekanism/MekanismGenerators
 
 匠魂 TConstruct/PlusTic/Construct'sArmory
 
