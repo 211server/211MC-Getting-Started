@@ -1,6 +1,6 @@
-# Nucleus
+# Essential
 
-[Nucleus](https://github.com/NucleusPowered/Nucleus) 是基础插件, 提供一系列常用命令.
+[Essential](https://github.com/EssentialsX/Essentials) 是 Minecraft 基础插件, 提供一系列常用命令.
 
 ## Home
 
@@ -28,7 +28,7 @@
 /firstspawn
 ```
 
-传送至新玩家第一次进入服务器时的出生点.
+传送至新玩家第一次进入服务器时的出生点\(若服务器规则未额外说明, 则与 /spawn 传送到的地点一致\).
 
 ## Warp
 
@@ -78,7 +78,7 @@
 /rtp
 ```
 
-此命令用于随机传送至一个地点, 可能会因此死亡. 若因此造成任何损失, 欢迎多试几次.
+此命令会将使用者随机传送到某个地点, 可能会传送入岩石/掉入岩浆/被怪物炸死. 若因此造成任何损失, 欢迎多试几次.
 
 ```text
 /gc

@@ -4,21 +4,19 @@
 
 ## 运行游戏并进入服务器
 
+* [购买游戏](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/gou-mai-you-xi.md)
+* [使用启动器](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/shi-yong-qi-dong-qi.md)
+* [进入服务器](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/jin-ru-fu-wu-qi.md)
 * [安装 Java](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/an-zhuang-java.md)
-* [运行客户端](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/yun-hang-ke-hu-duan.md)
-* [注册 211 账号](yun-hang-you-xi-bing-jin-ru-fu-wu-qi/zhu-ce-211-zhang-hao.md)
 
-## Mod 帮助
+## 子服务器
 
-* [Mod 列表](mod-bang-zhu/mod-lie-biao.md)
-* [工业2](mod-bang-zhu/gong-ye-2.md)
-* [已知 BUG](mod-bang-zhu/yi-zhi-bug.md)
+* [什么是群组服](zi-fu-wu-qi/shen-me-shi-qun-zu-fu.md)
 
 ## 插件帮助
 
-* [命令相关常识](cha-jian-bang-zhu/ming-ling-xiang-guan-chang-shi.md)
-* [Nucleus](cha-jian-bang-zhu/nucleus.md)
-* [Prism](cha-jian-bang-zhu/prism.md)
+* [什么是用户命令](cha-jian-bang-zhu/ming-ling-xiang-guan-chang-shi.md)
+* [Essential](cha-jian-bang-zhu/nucleus.md)
 
 ---
 

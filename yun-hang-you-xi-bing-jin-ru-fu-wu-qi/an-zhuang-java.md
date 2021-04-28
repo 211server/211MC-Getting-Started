@@ -1,8 +1,6 @@
 # 安装 Java
 
-众所周知, Minecraft 使用 Java 语言编写. Java 是一种虚拟机语言, 所以为了运行它必须首先安装运行时\(Runtime\).
-
-受限于游戏版本\(1.12.2\)和 Forge 版本\(1.12.2-14.23.5.2838\), 由于 Java9 及以上修改了 `UrlClassLoader` 的继承关系, 因此**不可用 Java8 以上的 Java 版本**. 请注意选择正确的 Java 版本!
+如果不使用官方启动器, 可能需要额外安装 Java 运行时. **官方启动器用户请跳过此帮助**.
 
 ## Windows
 
@@ -20,8 +18,6 @@ choco install javaruntime
 scoop bucket add java
 scoop install openjdk
 ```
-
-致命警告: 请注意下载的版本是否为 Java8.
 
 #### 手动安装
 
@@ -49,53 +45,18 @@ scoop install openjdk
 
 致命警告: 32位 Java 仅能使用至多 1GiB 的堆内存, 这远远达不到通常的 Minecraft 客户端所需, 因此你的计算机与操作系统以及 Java 运行时都必须为 amd64 或其兼容架构.
 
-致命警告: 请注意下载的版本是否为 Java8.
-
 ## Linux
 
 Debian/Ubuntu
 
 ```text
-apt install openjdk-8-jre
+apt install default-jre
 ```
 
-轻微警告: 若系统中已安装其他版本 Java, 建议为 Java8 额外添加快捷方式, 例如
-
-```text
-ln -s /usr/lib/jvm/java-8-openjdk-amd64/bin/java /usr/bin/java8
-```
-
-致命警告: 启动器需要使用 [JavaFX](https://www.oracle.com/java/technologies/javase/javafx-overview.html) 库, 这在 openjdk 中是一个额外软件包, 请使用以下命令来安装
+致命警告: 部分启动器需要使用 [JavaFX](https://www.oracle.com/java/technologies/javase/javafx-overview.html) 库, 这在 openjdk 中是一个额外软件包, 请使用以下命令来安装
 
 ```text
 apt install openjfx
-```
-
-此命令安装得到的 openjfx 可能对应 java 更高版本\(非 java8\), 请首先列出此软件包的全部版本
-
-```text
-apt list -a openjfx
-```
-
-命令执行结果例子:
-
-```text
-~$ apt list -a openjfx
-正在列表... 完成
-openjfx/bionic-updates,bionic-security 11.0.2+1-1~18.04.2 amd64
-openjfx/bionic 8u161-b12-1ubuntu2 amd64
-```
-
-注意其中的 `8u161-b12-1ubuntu2` 版本, 接下去安装此版本.
-
-```text
-apt install openjfx=8u161-b12-1ubuntu2
-```
-
-`apt upgrade` 可能会自动将 openjfx 软件包更新至更高版本\(对应更高版本的 java\), 使用以下命令来锁定版本阻止自动升级
-
-```text
-apt-mark hold openjfx
 ```
 
 其他发行版: 未测试
@@ -108,5 +69,5 @@ apt-mark hold openjfx
 brew cask install java
 ```
 
-或详见 [https://www.java.com/en/download/help/mac\_install.xml](https://www.java.com/en/download/help/mac_install.xml)
+详见 [https://www.java.com/en/download/help/mac\_install.xml](https://www.java.com/en/download/help/mac_install.xml)
 
