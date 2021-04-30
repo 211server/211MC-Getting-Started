@@ -14,7 +14,7 @@ Minecraft 官网: [https://www.minecraft.net/](https://www.minecraft.net/)
 
 ![](../.gitbook/assets/image%20%2819%29.png)
 
-依次选择 电脑 -&gt; PC/MAC/LINUX\(此选择取决于你的操作系统\).
+依次选择 电脑 -&gt; PC/MAC/LINUX\(取决于你的操作系统\) -&gt; Java 版.
 
 也可以直接点击此链接 [https://www.minecraft.net/store/minecraft-java-edition](https://www.minecraft.net/store/minecraft-java-edition)
 

@@ -1,6 +1,7 @@
 # Table of contents
 
 * [211 Server 帮助文档](README.md)
+* [服务器规则](fu-wu-qi-gui-ze.md)
 
 ## 运行游戏并进入服务器
 
