@@ -10,26 +10,25 @@
 
 在聊天栏中输入
 
-```text
+```
 /server {serverName}
 ```
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](<../.gitbook/assets/image (22).png>)
 
 其中, `serverName` 是变量, 代表子服务器名.
 
 目前已有的子服务器:
 
 * `lobby` 大厅服务器
-* `main` 生存服务器\(尚未开服\)
+* `main` 生存服务器(尚未开服)
 * `skyblock` 空岛服务器
-* `game` 小游戏服务器\(企划中\)
+* `game` 小游戏服务器(企划中)
 
 以进入空岛服为例, 请输入以下命令
 
-```text
+```
 /server skyblock
 ```
 
 切换子服务器的命令在任何子服务器中可用, 并非只有在大厅服务器中可用.
-

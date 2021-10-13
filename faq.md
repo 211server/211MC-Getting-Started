@@ -1,6 +1,6 @@
 # FAQ
 
-提问时请完整的描述问题\(如何精确的复现问题\)并讲述自己已尝试过的解决方案, 没有人会花两小时去解决你两秒钟打出来的问题. 如果确实想要得到帮助, 请首先确保自己的提问有价值. 提问前请务必阅读 [https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh\_CN.md](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
+提问时请完整的描述问题(如何精确的复现问题)并讲述自己已尝试过的解决方案, 没有人会花两小时去解决你两秒钟打出来的问题. 如果确实想要得到帮助, 请首先确保自己的提问有价值. 提问前请务必阅读 [https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way/blob/master/README-zh_CN.md)
 
 错误提问示例: 启动不了游戏啊/进不去服啊/服务器卡了吗
 
@@ -75,4 +75,3 @@ A: 因为 211 服务器的管理员都是 211 大学毕业的.
 Q: 我有一个问题...
 
 A: 有问题去医院.
-
